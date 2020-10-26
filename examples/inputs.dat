@@ -1,0 +1,48 @@
+NK_dir=  [/nk_data/nist ]
+Xscan = [Theta]
+Energy = [8.075]
+Theta = [0.1]
+MultilayerType = [UserDefinedML]
+
+AmbientMaterial = [Vacuum]
+SubstrateMaterial = [SiO2]
+#AmbientDensity = [None]
+#SubstrateDensity = [None]
+
+LayerMaterial = [SiO2,Si]
+
+Repetition = [1]
+
+TopLayerNum = [0]
+TopLayerThick = [3.0]
+EachRepetitionLayerNum = [2]
+EachRepetitionLayerThick = [10,300]
+
+Period = [20,20,20,20,20]
+Gamma = [0.4,0.4,0.4,0.4,0.4]
+
+D_max = [95.0]
+D_min = [25.0]
+C = [0.2]
+GammaTop = [0.8]
+
+NumStuck = [5]
+
+LayerNum = [None]
+
+SigmaValues = [0.0]
+
+DensityCorrection = [yes] 
+InterfaceProf = [ErrorFunction]
+SigmaCorrMethod = [NevotCroce]
+BeamPolarization= [0]
+DetectorPA = [1] 
+ProjEffCorr = [yes] 
+SampleSize = [30]
+IncidentBeamDia = [0.1]
+OriginalDensity = [2.22,2.23] 
+LayerDensity = [2.2,2.2] 
+InsRes = [0]
+NumCore = [10]
+Z_Array = [None]
+NK_Array = [None]

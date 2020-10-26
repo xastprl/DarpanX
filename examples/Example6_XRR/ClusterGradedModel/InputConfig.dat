@@ -1,0 +1,43 @@
+Xscan = [Theta]
+Energy = [8.075]
+MultilayerType = [ClusterGraded]
+AmbientMaterial = [Vacuum]
+SubstrateM aterial = [Si]
+LayerMaterial = [W, B4C]
+Repetition = [50]
+NumStack=[5]
+Period=[47.0,47.0,47.0,47.0,47.0]
+Gamma=[0.36,0.36,0.36,0.36,0.36]
+SigmaValues = [4.0, 4.0, 4.0, 4.0]
+DensityCorrection = [yes]
+ProjEffCorr = [yes]
+SampleSize = [30]
+IncidentBeamDia = [0.1]
+LayerDensity = [19.25, 2.52]
+NumCore = [12]
+
+
+
+AllModels(1)(1).values=[47.0, 0.1, 30.0, 30.0, 50.0, 60.0]
+AllModels(1)(3).values=[47.0, 0.1, 30.0, 30.0, 50.0, 60.0]
+AllModels(1)(5).values=[47.0, 0.1, 30.0, 30.0, 50.0, 60.0]
+AllModels(1)(7).values=[47.0, 0.1, 30.0, 30.0, 50.0, 60.0]
+AllModels(1)(9).values=[47.0, 0.1, 30.0, 30.0, 50.0, 60.0]
+
+
+AllModels(1)(2).values=[0.4, 0.1, 0.1, 0.1, 0.50, 1.0]
+AllModels(1)(4).values=[0.4, 0.1, 0.1, 0.1, 0.50, 1.0]
+AllModels(1)(6).values=[0.4, 0.1, 0.1, 0.1, 0.50, 1.0]
+AllModels(1)(8).values=[0.4, 0.1, 0.1, 0.1, 0.50, 1.0]
+AllModels(1)(10).values=[0.4, 0.1, 0.1, 0.1, 0.50, 1.0]
+
+
+AllModels(1)(11).values=[19.0, 1.0, 10.0, 10.0, 19.0, 19.6]
+AllModels(1)(12).values=[2.5, 1.0, 1.0, 1.5, 2.5, 2.6]
+
+AllModels(1)(14).values=[4.0, 0.1, 1.0, 1.0, 9.0, 14.0]
+AllModels(1)(15).values=[4.0, 0.1, 1.0, 1.0, 9.0, 14.0]
+AllModels(1)(16).values=[4.0, 0.1, 1.0, 1.0, 9.0, 14.0]
+AllModels(1)(17).values=[4.0, 1.0, 1.0, 1.0, 9.0, 14.0]
+AllModels(1)(18).values=[1.0, 0.1, 0.0, 0.0, 2.0, 2.0]
+

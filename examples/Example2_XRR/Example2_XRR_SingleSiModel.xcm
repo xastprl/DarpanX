@@ -1,0 +1,26 @@
+#PyXspec: Output generated from Xset.save().  DO NOT MODIFY.
+
+statistic chi
+data 1:1 191216200Si105_XRR.pha.rbn2
+response  1:1 191216200Si105.rsp
+ignore 1:1-10,163-215
+gain fit 1:1
+              1      -0.01       0.01        0.5        1.5          5
+     -0.0185885      -0.01       -0.1       -0.1        0.1        0.1
+
+
+method leven 100 0.01
+abund angr
+xsect vern
+cosmo 70 0 0.73
+xset delta 0.01
+systematic 0.1
+model  gsmooth*darpanx_Th
+      0.0142387      -1e-05          0          0       0.01        0.1
+              0      -0.01         -1         -1          1          1
+            300          1        300        300        400        400
+            2.0  0.0163999          1        1.9      2.329      4.329
+       0.103189       -0.01     0.0001     0.0001        0.4        0.5
+            5.0          1          0          0          9         14
+            5.0          1          0          0          9         14
+            1.0       0.01          0          0      1e+20      1e+24

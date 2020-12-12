@@ -40,6 +40,10 @@ class Multilayer(object):
         try:
             NumCore=int(NumCore)
             if NumCore > 0:
+                cpu=mulp.cpu_count()
+                if NumCore > cpu:
+                    print("%% DarpanX_message: NumCore is exciding the maximum value. Set NumCore = "+str(cpu))
+                    NumCore=cpu
                 print("%% DarpanX_status: Parallel processing is using with no.cores = "+str(NumCore))
                 self.NumCore=NumCore
             else: print("%% DarpanX_Error: < NumCore > should be an integer, like 1,2,3...")

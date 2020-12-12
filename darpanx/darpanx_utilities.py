@@ -24,6 +24,7 @@ from tabulate import tabulate
 from os import path
 from darpanx.get_dir import*
 import sys
+import multiprocessing as mlp
 '''
 #-----------------------------------------------
 Perpose:
@@ -536,6 +537,10 @@ def read_infile(UserInFile):
         NumCore=l2[l1.index('NumCore')][1:-1]
         NumCore=int(NumCore)
         if NumCore > 0:
+            cpu=mlp.cpu_count()
+            if NumCore > cpu:
+                print("%% DarpanX_message: NumCore is exciding the maximum value. Set NumCore = "+str(cpu))
+                NumCore=cpu
             print("%% DarpanX_message: Parallel processing is using with no.cores = "+str(NumCore))
         else: print("%% DarpanX_Error: < NumCore > should be an integer, like 1,2,3...")
     except:NumCore=None

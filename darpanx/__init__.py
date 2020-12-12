@@ -24,4 +24,6 @@ from .get_dir import*
 #from .darpanx_fit import *
 from .darpanx_nkcal import*
 from .wrapper_call import*
+import multiprocessing as mulp
+mulp.set_start_method('fork',force=True)
 #intro()

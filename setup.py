@@ -11,7 +11,7 @@ f.write(" return os.path.join(dir,'darpanx_fit.py')"+ '\n')
 f.close()
 
 setup(name='DarpanX',
-      version='0.3',
+      version='0.4',
       description='DarpanX: A Python Package for Modeling X-ray Reflectivity of Multilayer Mirrors',
       author='Biswajit Mondal',
       author_email='biswajitm@prl.res.in',

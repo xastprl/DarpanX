@@ -352,7 +352,7 @@ def check_error(MultilayerType=None ,LayerMaterial=None, Repetition=None, NumSta
                 raise Exception('%% DarpanX_Error: Incorrect dimension of  < LayerMaterial > -- should be a '+str(LayerNum)+'-element array, like ["'"W"'","'"Si"'",...].')
             #if DensityCorrection == 'yes' and len(OriginalDensity) != LayerNum:
             #    raise Exception('%% DarpanX_Error: Incorrect dimension of < OriginalDensity >..It should be='+str(len(LayerMaterial)))
-            if len(SigmaValues) != len(LayerNum+1) and len(SigmaValues) !=1:raise Exception('%% DarpanX_Error: Undefined < SigmaValues > or incorrect dimensions. len(SigmaValues) should be- 1 or '+str(LayerNum+1))
+            if len(SigmaValues) != (LayerNum+1) and len(SigmaValues) !=1:raise Exception('%% DarpanX_Error: Undefined < SigmaValues > or incorrect dimensions. len(SigmaValues) should be- 1 or '+str(LayerNum+1))
         else:raise Exception('%% DarpanX_Error: Undefined < MultilayerType > --options are < ["'"UserDefinedML"'","'"SingleLayer"'", "'"DepthGraded"'", "'"ClusterGraded"'", "'"UserDefined"'"] >.')
     try:
         if DensityCorrection =='yes' and len(LayerDensity) != len(LayerMaterial):

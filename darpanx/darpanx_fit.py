@@ -428,7 +428,7 @@ def parinfo():
             thickness_parInfo=thickness_parInfo+d
         thickness_parInfo=tuple(thickness_parInfo)
         #except: raise Exception("%% DarpanX_Error: Incorrect dimension of < period > and < gamma >. Dimension should be- "+str(NumStack))
-    elif MultilayerType == 'UsereDfined':
+    elif MultilayerType == 'UserDefined':
         thickness_parInfo=[]
         for i in range(LayerNum):
             d="d_"+LayerMaterial[i]+" Angs "+str(Z_Array[i])+" 0.0 0.0 "+str(Z_Array[i]+50)+" "+str(Z_Array[i]+80)+" 1.0"

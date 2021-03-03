@@ -25,5 +25,6 @@ from .get_dir import*
 from .darpanx_nkcal import*
 from .wrapper_call import*
 import multiprocessing as mulp
-mulp.set_start_method('fork',force=True)
+from sys import platform
+if platform != "win32": mulp.set_start_method('fork',force=True)
 #intro()

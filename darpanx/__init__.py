@@ -21,7 +21,6 @@ from .darpanx_utilities import *
 from .darpanx_frsnl import *
 from .darpanx_mlcal import *
 from .get_dir import*
-#from .darpanx_fit import *
 from .darpanx_nkcal import*
 from .wrapper_call import*
 import multiprocessing as mulp

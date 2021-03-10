@@ -566,12 +566,12 @@ class Multilayer(object):
                     for k in range(len(c)):
                         c35=c35+1
                         if c[k] == 0:
-                            y1=0.1
-                            y2=y1+self.Z_Array[c[k]]
+                            y1=0.1+sum(self.Z_Array)
+                            y2=y1-self.Z_Array[c[k]]
                             #print(c[k],y1,y2)
                         else:
-                            y1=0.1+sum(self.Z_Array[0:c[k]])
-                            y2=y1+self.Z_Array[c[k]]
+                            y1=0.1+sum(self.Z_Array)-sum(self.Z_Array[0:c[k]])
+                            y2=y1-self.Z_Array[c[k]]
                             #print(c[k],y1,y2)
                         #print(y1,y2)
                         if c35 == 1:

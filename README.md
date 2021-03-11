@@ -8,7 +8,7 @@ For more information regarding the DarpanX see:
 * [Mondal, Biswajit et al. 2021, Astronomy and Computing.](https://doi.org/10.1016/j.ascom.2020.100446)
 
 
-##Pre-requisites::
+## Pre-requisites
 
 It requires PyXspec (python version of XSPEC) installation with the same version of python; Other python modules required for darpanx are:
 
@@ -37,7 +37,7 @@ To install DarpanX package system-wide:
 sudo python3.x setup.py install
 ```
 
-##Usage
+## Usage
 
 Open a python3.x shell like ipython
 

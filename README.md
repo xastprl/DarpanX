@@ -1,6 +1,5 @@
 # DarpanX: A Python Package for Modeling X-ray Reflectivity of Multilayer Mirrors
-<a href="https://ascl.net/1203.007"><img src="https://img.shields.io/badge/ascl-1203.007-blue.svg?colorB=262255" alt="ascl:1203.007" /></a>
-
+<a href="https://ascl.net/2101.015"><img src="https://img.shields.io/badge/ascl-2101.015-blue.svg?colorB=262255" alt="ascl:2101.015" /></a>
 
 DarpanX is a Python-3 package that provides functionality to compute reflectivity and other specular optical functions of multilayer/single-layer mirror for different energy and angles as well as to fit the XRR measurements of the mirrors. An  API  is  provided  for  this and it is also implemented as a local model in PyXspec for  fitting  the experimental XRR measurements. 
 
@@ -10,7 +9,7 @@ For more information regarding the DarpanX see:
 
 ## Pre-requisites
 
-It requires PyXspec (python version of XSPEC) installation with the same version of python; Other python modules required for darpanx are:
+Following python modules are required for the installation of darpanx :
 
 ```
  setuptools
@@ -20,6 +19,8 @@ It requires PyXspec (python version of XSPEC) installation with the same version
  matplotlib
  tabulate
 ```
+
+For the experimental data fitting, [PyXSPEC](https://heasarc.gsfc.nasa.gov/xanadu/xspec/python/html/index.html) (python version of [XSPEC](https://heasarc.gsfc.nasa.gov/xanadu/xspec/)) is required.
 
 ## Installation
 The DarpanX package can be downloaded from the Github link-
@@ -74,7 +75,7 @@ m.plot(ylog="no", Comp=["Ra","Ta","Aa"], AllComp="oplot", Scale="yes")
 All available functionality with examples are described in the DarpanX_UserManual.pdf
 
 Use of DarpanX should be acknowledged by referencing the paper:
-[Mondal, B et al. 2021, Astronomy and Computing.](https://doi.org/10.1016/j.ascom.2020.100446)
+[Mondal, B. et al. 2021, Astronomy and Computing.](https://doi.org/10.1016/j.ascom.2020.100446)
 
 
 

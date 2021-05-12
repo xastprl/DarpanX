@@ -42,4 +42,4 @@ Theta=np.arange(start=0,stop=5,step=0.01) # Define theta range in degree .
 
 m.get_optical_func(Theta=Theta,Energy=Energy,AllOpticalFun ="yes")
 
-m.plot(ylog="no",Comp=["Ra","Ta","Aa"],AllComp="oplot",OutFile="example3_userdefined")
+m.plot(ylog="no",Comp=["Ra","Ta","Aa"],AllComp="oplot",OutFile="example4_userdefined",Struc='yes')

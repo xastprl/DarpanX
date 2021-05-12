@@ -38,4 +38,4 @@ Energy=10**(np.arange(start=np.log10(0.1),stop=np.log10(80.0),step=0.01)) # 0.1-
 
 m.get_optical_func(Theta=Theta,Energy=Energy,AllOpticalFun ="yes")
 
-m.plot(ylog="no",Comp=["Ra","Ta","Aa"],AllComp="oplot",OutFile="example3_Pt_C_DepthGraded")
+m.plot(ylog="no",Comp=["Ra","Ta","Aa"],AllComp="oplot",OutFile="example5_Pt_C_DepthGraded",Struc='yes')

@@ -38,4 +38,4 @@ Theta=np.arange(start=0,stop=10,step=0.01) # Define theta range in degree
 
 m.get_optical_func(Theta=Theta,Energy=Energy)
 
-m.plot(ylog="yes",Comp=["Ra"],OutFile="Example2_Pt_SiC")
+m.plot(ylog="yes",Comp=["Ra"],OutFile="Example3_Pt_SiC",Struc='yes')

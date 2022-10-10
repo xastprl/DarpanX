@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Use of DarpanX should be acknowledged by citing the paper. Please use the Citation button to generate a citation in a desirable format."
+message: "Use of DarpanX should be acknowledged by citing the paper. Please use the 'Cite this repository' dropdown to get a citation in a desirable format."
 authors:
 - family-names: "Mondal"
   given-names: "Biswajit"
@@ -32,7 +32,7 @@ authors:
   given-names: "R. B."
 title: "DarpanX: X-ray reflectivity of multilayer mirrors"
 version: 0.4
-doi: "https://ascl.net/2101.015"
+doi: 10.1016/j.ascom.2020.100446
 date-released: 2020-12-12
 url: "https://github.com/xastprl/DarpanX"
 preferred-citation:

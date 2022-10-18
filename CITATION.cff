@@ -15,7 +15,6 @@ authors:
   given-names: "Neeraj .K."
 - family-names: "Goyal"
   given-names: "Shiv Kumar"
-  orcid: "https://orcid.org/"
 - family-names: "Panini"
   given-names: "Singam S."
   orcid: "https://orcid.org/0000-0002-6682-4841"
@@ -27,12 +26,11 @@ authors:
   orcid: "https://orcid.org/0000-0003-0622-7487"
 - family-names: "Patel"
   given-names: "Mansukhlal R."
-  orcid: "https://orcid.org/"
 - family-names: "Upadhyay"
   given-names: "R. B."
 title: "DarpanX: X-ray reflectivity of multilayer mirrors"
 version: 0.4
-doi: 10.1016/j.ascom.2020.100446
+doi: "10.5281/zenodo.7220885"
 date-released: 2020-12-12
 url: "https://github.com/xastprl/DarpanX"
 preferred-citation:
@@ -52,7 +50,6 @@ preferred-citation:
     given-names: "Neeraj .K."
   - family-names: "Goyal"
     given-names: "Shiv Kumar"
-    orcid: "https://orcid.org/"
   - family-names: "Panini"
     given-names: "Singam S."
     orcid: "https://orcid.org/0000-0002-6682-4841"
@@ -64,10 +61,9 @@ preferred-citation:
     orcid: "https://orcid.org/0000-0003-0622-7487"
   - family-names: "Patel"
     given-names: "Mansukhlal R."
-    orcid: "https://orcid.org/"
   - family-names: "Upadhyay"
     given-names: "R. B."
-  doi: "https://doi.org/10.1016/j.ascom.2020.100446"
+  doi: "10.1016/j.ascom.2020.100446"
   journal: "Astronomy and Computing"
   month: 1
   start: 100446

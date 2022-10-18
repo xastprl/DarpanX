@@ -1,6 +1,8 @@
 # DarpanX: A Python Package for Modeling X-ray Reflectivity of Multilayer Mirrors
 <a href="https://ascl.net/2101.015"><img src="https://img.shields.io/badge/ascl-2101.015-blue.svg?colorB=262255" alt="ascl:2101.015" /></a>
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7220886.svg)](https://doi.org/10.5281/zenodo.7220886)
+
 DarpanX is a Python-3 package that provides functionality to compute reflectivity and other specular optical functions of multilayer/single-layer mirror for different energy and angles as well as to fit the XRR measurements of the mirrors. An  API  is  provided  for  this and it is also implemented as a local model in PyXspec for  fitting  the experimental XRR measurements. 
 
 For more information regarding the DarpanX see:

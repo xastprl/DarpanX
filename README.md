@@ -15,7 +15,7 @@ Following python modules are required for the installation of darpanx :
 
 ```
  setuptools
- numpy
+ numpy < 2
  scipy
  multiprocessing
  matplotlib

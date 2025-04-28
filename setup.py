@@ -16,7 +16,10 @@ setup(name='DarpanX',
       author='Biswajit Mondal',
       author_email='biswajitm@prl.res.in',
       url='https://github.com/biswajitmb/DarpanX/tree/objOriented/objectOriented/python',
-      packages=find_packages()
+      packages=find_packages(),
+      install_requires=[
+        'numpy<2',
+        'tabulate'],
      )
 
 print("%% DarpanX_message : Don't delete the directory '"+os.getcwd()+"'")
